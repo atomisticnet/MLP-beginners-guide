@@ -1,0 +1,46 @@
+DESCR
+  Structural fingerprint setup for O in bulk TiO2.
+  Ref.: N. Artrith and A. Urban, Comp. Mater. Sci. (2016)
+END DESCR
+
+ATOM O
+
+ENV  2
+H
+O
+
+RMIN 0.75d0
+
+SYMMFUNC type=Behler2011
+30
+G=2 type2=H   eta=0.001  Rs=0.0000  Rc=12.0000
+G=2 type2=O   eta=0.001  Rs=0.0000  Rc=12.0000
+G=2 type2=H   eta=0.010  Rs=0.0000  Rc=12.0000
+G=2 type2=O   eta=0.010  Rs=0.0000  Rc=12.0000
+G=2 type2=H   eta=0.030  Rs=0.0000  Rc=12.0000
+G=2 type2=O   eta=0.030  Rs=0.0000  Rc=12.0000
+G=2 type2=H   eta=0.090  Rs=0.0000  Rc=12.0000
+G=2 type2=O   eta=0.090  Rs=0.0000  Rc=12.0000
+G=2 type2=H   eta=0.150  Rs=0.9000  Rc=12.0000
+G=2 type2=O   eta=0.150  Rs=4.0000  Rc=12.0000
+G=2 type2=H   eta=0.300  Rs=0.9000  Rc=12.0000
+G=2 type2=O   eta=0.300  Rs=4.0000  Rc=12.0000
+G=2 type2=H   eta=0.600  Rs=0.9000  Rc=12.0000
+G=2 type2=O   eta=0.600  Rs=4.0000  Rc=12.0000
+G=2 type2=H   eta=1.500  Rs=0.9000  Rc=12.0000
+G=2 type2=O   eta=1.500  Rs=4.0000  Rc=12.0000
+G=4 type2=H  type3=O    eta=0.001 lambda= -1.0  zeta= 4.0  Rc=12.0000
+G=4 type2=O  type3=O    eta=0.001 lambda= -1.0  zeta= 4.0  Rc=12.0000
+G=4 type2=H  type3=O    eta=0.001 lambda=  1.0  zeta= 4.0  Rc=12.0000
+G=4 type2=O  type3=O    eta=0.001 lambda=  1.0  zeta= 4.0  Rc=12.0000
+G=4 type2=H  type3=H    eta=0.010 lambda= -1.0  zeta= 4.0  Rc=12.0000
+G=4 type2=H  type3=H    eta=0.010 lambda=  1.0  zeta= 4.0  Rc=12.0000
+G=4 type2=H  type3=H    eta=0.030 lambda= -1.0  zeta= 1.0  Rc=12.0000
+G=4 type2=O  type3=O    eta=0.030 lambda= -1.0  zeta= 1.0  Rc=12.0000
+G=4 type2=O  type3=O    eta=0.030 lambda= -1.0  zeta= 1.0  Rc=12.0000
+G=4 type2=H  type3=H    eta=0.030 lambda=  1.0  zeta= 1.0  Rc=12.0000
+G=4 type2=H  type3=O    eta=0.030 lambda=  1.0  zeta= 1.0  Rc=12.0000
+G=4 type2=O  type3=O    eta=0.030 lambda=  1.0  zeta= 1.0  Rc=12.0000
+G=4 type2=H  type3=O    eta=0.070 lambda= -1.0  zeta= 1.0  Rc=12.0000
+G=4 type2=H  type3=O    eta=0.070 lambda=  1.0  zeta= 1.0  Rc=12.0000
+
