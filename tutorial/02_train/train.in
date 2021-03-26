@@ -1,19 +1,11 @@
 TRAININGSET H2O.train
 TESTPERCENT 10
-ITERATIONS  5000 
+ITERATIONS  100 
 
 METHOD
 bfgs
 
-# Regularization can generally help to improve forces, but I have not
-# tested it much (with or without force training); I implemented L2 and
-# L1 regularization, but I recommend L2 for BFGS.  The parameter is
-# related to the lowest error in the fit that can be achieved, so if the
-# parameter is too high, the error of the potential will not go down.
-
-# REGULARIZATION
-# l2=0.0001
-
+SAVE_ENERGIES
 
 NETWORKS
 ! atom   network         hidden
