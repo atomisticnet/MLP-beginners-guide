@@ -5,6 +5,8 @@ ITERATIONS  100
 METHOD
 bfgs
 
+SAVE_ENERGIES
+
 NETWORKS
 ! atom   network         hidden
 ! types  file-name       layers  nodes:activation
