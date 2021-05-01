@@ -2,7 +2,7 @@
 
 Strategies for the Construction of Neural-Network Based Machine-Learning Potentials (MLPs)
 
-This notebook is a companion to Miksch, Morawietz, Kaestner, Urban, and Artrith
+This notebook is a companion to Miksch, Morawietz, Kaestner, Urban, and Artrith, <br/>
 Machine Learning: Science and Technology, **(2021) DOI: https://doi.org/10.1088/2632-2153/abfd96**.
 
 
